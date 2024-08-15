@@ -1,0 +1,11 @@
+{
+  "name": "zkemail-browser-benches",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@noir-lang/backend_barretenberg": "^0.33.0",
+    "@noir-lang/noir_js": "^0.33.0"
+  }
+}
