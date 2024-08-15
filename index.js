@@ -11,7 +11,7 @@ const calcAvg = (aggTime, iterations) => {
     proofGenerationTime: aggTime.proofGenerationTime / iterations,
     proofVerificationTime: aggTime.proofVerificationTime / iterations,
     totalTime: aggTime.totalTime / iterations,
-    witnessGenerationTime: aggTime.totalTime / iterations,
+    witnessGenerationTime: aggTime.witnessGenerationTime / iterations,
   };
 };
 
